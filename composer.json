@@ -1,0 +1,26 @@
+{
+  "name": "brezgalov/php-specification",
+  "description": "specification pattern implementation",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Oleg Brezgalov",
+      "email": "oleg.brezgalov@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.0.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Brezgalov\\Specification\\": "src/"
+    }
+  }
+}
