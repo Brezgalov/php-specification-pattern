@@ -4,7 +4,7 @@ Implementation for base Specification pattern classes
 
 ## Installation
 
-> composer require brezgalov/php-specification dev-master
+> composer require brezgalov/php-specification-pattern dev-master
 
 ## Usage
 - Extend AbstractSpecification class
