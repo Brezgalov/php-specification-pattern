@@ -4,5 +4,5 @@ namespace Brezgalov\Specification;
 
 interface ISpecification
 {
-    public function isSatisfiedBy(mixed $item): bool;
+    public function satisfiedBy(mixed $item): bool;
 }

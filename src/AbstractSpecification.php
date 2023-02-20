@@ -4,7 +4,7 @@ namespace Brezgalov\Specification;
 
 abstract class AbstractSpecification implements ILogicalSpecification
 {
-    public abstract function isSatisfiedBy(mixed $item): bool;
+    public abstract function satisfiedBy(mixed $item): bool;
 
     public function and(ISpecification $specification): ILogicalSpecification
     {

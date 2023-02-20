@@ -11,8 +11,8 @@ class NotSpecification extends AbstractSpecification
         $this->baseSpec = $baseSpec;
     }
 
-    public function isSatisfiedBy(mixed $item): bool
+    public function satisfiedBy(mixed $item): bool
     {
-        return !$this->baseSpec->isSatisfiedBy($item);
+        return !$this->baseSpec->satisfiedBy($item);
     }
 }

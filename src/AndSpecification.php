@@ -13,8 +13,8 @@ class AndSpecification extends AbstractSpecification
         $this->right = $right;
     }
 
-    public function isSatisfiedBy(mixed $item): bool
+    public function satisfiedBy(mixed $item): bool
     {
-        return $this->left->isSatisfiedBy($item) && $this->right->isSatisfiedBy($item);
+        return $this->left->satisfiedBy($item) && $this->right->satisfiedBy($item);
     }
 }
